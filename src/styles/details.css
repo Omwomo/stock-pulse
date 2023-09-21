@@ -1,86 +1,36 @@
-.details {
-  display: flex;
+.headers {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1c067e;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .nav-area {
   display: flex;
+  width: auto;
+  background-color: #1c067e;
 }
 
 .back-button {
-  height: auto;
-  background-color: goldenrod;
+  border: none;
+  background-color: #1c067e;
+  font-size: 1.8rem;
+  color: #fff;
   cursor: pointer;
 }
 
-h3 {
-  color: aqua;
-  font-size: 1.6rem;
-}
-
-.first-div {
-  height: 90vh;
-  width: 40%;
-}
-
-.first-div .logo, .description {
-  height: 45%;
-  border: 1px solid #000;
-  background-color: #121212;
-  border-radius: 5rem;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  transform: perspective(40rem) rotateY(10deg) scale(0.9);
-  box-shadow: 0 6px 20px rgb(0 0 0 / 0.9);
-}
-
-.side-bar {
-  height: auto;
-  background-color: goldenrod;
-  width: 1%;
-  overflow-wrap: break-word;
-  padding: 1%;
-  font-size: 1.5rem;
-  align-items: center;
-}
-
-button {
-  height: fit-content;
-}
-
-.second-div {
-  height: 90vh;
-  width: 30%;
-}
-
-.second-div .industry, .website, .exchange {
-  height: 33%;
-  border: 1px solid #000;
-  background-color: #121212;
-  border-radius: 4rem;
+.table-container {
+  background-color: #1a4782;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transform: perspective(30rem) rotateY(10deg) scale(0.9);
-  box-shadow: 0 6px 20px rgb(0 0 0 / 0.9);
 }
 
-.third-div {
-  height: 90vh;
-  width: 20%;
-}
-
-.third-div .price, .market-cap, .changes, .ceo {
-  height: 25%;
-  border: 1px solid #000;
-  background-color: #121212;
-  border-radius: 3rem;
+.table-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transform: perspective(20rem) rotateY(10deg) scale(0.9);
-  box-shadow: 0px 6px 20px rgb(0 0 0 / 0.9);
+  justify-content: space-between;
+  padding: 13px;
+}
+
+.table-row:nth-child(2n) {
+  background-color: #1c067e80;
 }

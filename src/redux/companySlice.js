@@ -9,7 +9,7 @@ const initialState = {
   error: '',
 };
 
-const API_KEY = 'cc124a5c542dc1173ec8a3b6367aebe4';
+const API_KEY = 'd7b49b7284d78cbb0fd2441ec7cd0f9b';
 
 export const getCompanies = createAsyncThunk('companies/getCompanies', async () => {
   try {
