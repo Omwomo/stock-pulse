@@ -1,14 +1,14 @@
 import React from 'react';
+import { FaCog, FaMicrophone } from 'react-icons/fa';
 
 const NavBar = () => (
   <div className="navbar">
-    <span className="page-name">
-      STOCK PULSE
-    </span>
+    <div className="page-name">
+      <p className="name">STOCK PULSE</p>
+    </div>
     <ul className="nav-list">
-      <li className="nav-item">Home</li>
-      <li className="nav-item">About</li>
-      <li className="nav-item">Contact</li>
+      <FaCog className="nav-item" data-testid="navcons-cog" />
+      <FaMicrophone className="nav-item" data-testid="navcons-microphone" />
     </ul>
   </div>
 );

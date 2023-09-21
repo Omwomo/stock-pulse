@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { FaArrowCircleRight } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getCompanies, filter, checkTyping } from '../redux/companySlice';
@@ -45,13 +46,14 @@ const Home = () => {
       <input
         type="text"
         className="search"
-        placeholder="Search companies..."
+        placeholder="SEARCH COMPANIES..."
         onChange={handleFilter}
       />
       <div className="company-list">
         {isTyping ? filterCompanies.map((company) => (
           <div key={company.symbol} className="company">
             <Link to={`/details/${company.symbol}`}>
+              <FaArrowCircleRight className="arrow" />
               <p className="company-name">
                 {company.name}
               </p>
@@ -66,6 +68,7 @@ const Home = () => {
         )) : companies.map((company) => (
           <div key={company.symbol} className="company">
             <Link to={`/details/${company.symbol}`}>
+              <FaArrowCircleRight className="arrow" />
               <p className="company-name">
                 {company.name}
               </p>
