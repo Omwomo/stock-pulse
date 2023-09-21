@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getCompanies, filter, checkTyping } from '../redux/companySlice';
+import NavBar from './Navbar';
 import '../assets/pexels-burak-the-weekender-186461.jpg';
 import '../styles/home.css';
 
@@ -28,29 +29,33 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h1>Company List</h1>
+      <div className="header">
+        <NavBar />
+        <div className="h">
+          <div className="hd-ds">
+            <p className="stock-intro">
+              Small Intro about stock market, which should extend
+              to try and cover more than one line if possible, this is just a placeholder
+            </p>
+            <button className="header-button" type="button">Learn More</button>
+          </div>
+          <div className="image" />
+        </div>
+      </div>
       <input
         type="text"
+        className="search"
         placeholder="Search companies..."
         onChange={handleFilter}
       />
-      <div className="header">
-        <div className="hd-ds">
-          <p className="stock-intro">
-            Small Intro about stock market.
-          </p>
-          <button className="header-button" type="button">Learn More</button>
-        </div>
-        <div className="image" />
-      </div>
       <div className="company-list">
         {isTyping ? filterCompanies.map((company) => (
           <div key={company.symbol} className="company">
             <Link to={`/details/${company.symbol}`}>
-              <p>
+              <p className="company-name">
                 {company.name}
               </p>
-              <p>
+              <p className="percentage-change">
                 {company.changesPercentage}
               </p>
               <p>
@@ -61,10 +66,10 @@ const Home = () => {
         )) : companies.map((company) => (
           <div key={company.symbol} className="company">
             <Link to={`/details/${company.symbol}`}>
-              <p>
+              <p className="company-name">
                 {company.name}
               </p>
-              <p>
+              <p className="percentage-change">
                 {company.changesPercentage}
               </p>
               <p>
