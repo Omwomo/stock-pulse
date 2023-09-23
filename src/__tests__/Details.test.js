@@ -12,7 +12,6 @@ describe('Details Component', () => {
       <Provider store={store}>
         <BrowserRouter>
           {' '}
-          {/* Wrap Details with BrowserRouter */}
           <Details />
         </BrowserRouter>
       </Provider>,
@@ -35,7 +34,6 @@ describe('Details Component', () => {
     render(
       <BrowserRouter>
         {' '}
-        {/* Wrap Details with BrowserRouter */}
         <Details companyDetails={mockCompanyDetails} />
       </BrowserRouter>,
     );
@@ -50,7 +48,6 @@ describe('Details Component', () => {
 
     render(
       <BrowserRouter>
-        {/* Wrap Details with BrowserRouter */}
         <Details companyDetails={{}} />
       </BrowserRouter>,
     );

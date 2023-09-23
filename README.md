@@ -80,7 +80,7 @@
 - [Live Demo Link](#)
 
 ## 🚀 Video Link <a name="live-demo"></a>
-- [Video Link](#)
+- [Video Link](https://www.loom.com/share/cc3e214f758945cdb3e7dc2df50fc8cb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -10,7 +10,6 @@ import '../styles/home.css';
 const Home = () => {
   const dispatch = useDispatch();
   const companies = useSelector((state) => state.companies.companies);
-  console.log('here:', companies);
   const filterCompanies = useSelector((state) => state.companies.filterCompanies);
   const isTyping = useSelector((state) => state.companies.isTyping);
 
