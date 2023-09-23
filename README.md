@@ -54,14 +54,14 @@
 <details>
   <summary>React</summary>
   <ul>
-    <li><a href="#">Webpack</a></li>
+    <li><a href="#">React</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Redux</summary>
   <ul>
-    <li><a href="#">Webpack</a></li>
+    <li><a href="#">Redux</a></li>
   </ul>
 </details>
 
