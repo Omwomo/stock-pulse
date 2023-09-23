@@ -10,6 +10,7 @@ import '../styles/home.css';
 const Home = () => {
   const dispatch = useDispatch();
   const companies = useSelector((state) => state.companies.companies);
+  console.log('here:', companies);
   const filterCompanies = useSelector((state) => state.companies.filterCompanies);
   const isTyping = useSelector((state) => state.companies.isTyping);
 
@@ -35,8 +36,7 @@ const Home = () => {
         <div className="h">
           <div className="hd-ds">
             <p className="stock-intro">
-              Small Intro about stock market, which should extend
-              to try and cover more than one line if possible, this is just a placeholder
+              Small Intro about stock market, this is just a placeholder
             </p>
             <button className="header-button" type="button">Learn More</button>
           </div>
@@ -54,10 +54,10 @@ const Home = () => {
           <div key={company.symbol} className="company">
             <Link to={`/details/${company.symbol}`}>
               <FaArrowCircleRight className="arrow" />
-              <p className="company-name">
+              <p className="company-name" data-testid="company-name">
                 {company.name}
               </p>
-              <p className="percentage-change">
+              <p className="company-changes" data-testid="company-changes">
                 {company.changesPercentage}
               </p>
               <p>
@@ -69,10 +69,10 @@ const Home = () => {
           <div key={company.symbol} className="company">
             <Link to={`/details/${company.symbol}`}>
               <FaArrowCircleRight className="arrow" />
-              <p className="company-name">
+              <p className="company-name" data-testid="company-name">
                 {company.name}
               </p>
-              <p className="percentage-change">
+              <p className="company-changes" data-testid="company-changes">
                 {company.changesPercentage}
               </p>
               <p>
