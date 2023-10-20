@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Trade-Sage_Elite] <a name="about-project"></a>
+# 📖 [Stock Pulse] <a name="about-project"></a>
 
-**[Trade-Sage-Elite]** In this capstone project, I successfully created an innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.
+**[Stock Pulse]** In this capstone project, I successfully created an innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.
 
 ## 🛠 Built With <a name="built-with"></a>
 
