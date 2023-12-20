@@ -176,7 +176,6 @@ If you like this project give it a star!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse for this great opportunity!
-- I would like to ackowledge Nelson Sakwa the author of the original design,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
