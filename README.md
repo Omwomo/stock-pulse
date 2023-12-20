@@ -1,5 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -20,7 +18,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [Stock Pulse] <a name="about-project"></a>
 
@@ -65,7 +62,6 @@
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
