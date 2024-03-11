@@ -1,5 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -20,11 +18,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Trade-Sage_Elite] <a name="about-project"></a>
+# 📖 [Stock Pulse] <a name="about-project"></a>
 
-**[Trade-Sage-Elite]** In this capstone project, I successfully created an innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.
+**[Stock Pulse]** In this capstone project, I successfully created an innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,7 +62,6 @@
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
@@ -74,7 +70,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [Live Demo Link](https://stock-pulse.netlify.app/)
@@ -84,7 +79,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -133,7 +127,6 @@ npm test
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -145,7 +138,6 @@ npm test
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -153,7 +145,6 @@ npm test
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -163,7 +154,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -176,11 +166,9 @@ If you like this project give it a star!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse for this great opportunity!
-- I would like to ackowledge Nelson Sakwa the author of the original design,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
