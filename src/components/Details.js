@@ -27,11 +27,9 @@ const Details = () => {
   return (
     <div className="details">
       <div className="nav-area">
-        <label htmlFor="back-button" className="back-button-label">
-          <button className="back-button" type="button" onClick={handleBack}>
-            <FaAngleLeft className="nav-arrow" data-testid="navcons-arrow" />
-          </button>
-        </label>
+        <button className="back-button" type="button" onClick={handleBack}>
+          <FaAngleLeft className="nav-arrow" data-testid="navcons-arrow" />
+        </button>
         <NavBar />
       </div>
       <div className="headers">
