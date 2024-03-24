@@ -35,8 +35,9 @@ const Home = () => {
         <div className="h">
           <div className="hd-ds">
             <p className="stock-intro">
-              This is where you find extensive information about a diverse array of active companies. 
-              The application features in-depth company profiles coupled with performance metrics, empowering 
+              This is where you find extensive information about a diverse array of active
+              companies. The application features in-depth company profiles coupled
+              with performance metrics, empowering 
               users to glean valuable insights into their operations and achievements.
             </p>
             <button className="header-button" type="button">Learn More</button>
