@@ -27,7 +27,12 @@ const Details = () => {
   return (
     <div className="details">
       <div className="nav-area">
-        <button className="back-button" type="button" onClick={handleBack}>
+        <button
+          className="back-button"
+          type="button"
+          onClick={handleBack}
+          aria-label="Go back"
+        >
           <FaAngleLeft className="nav-arrow" data-testid="navcons-arrow" />
         </button>
         <NavBar />
