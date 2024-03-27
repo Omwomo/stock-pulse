@@ -74,9 +74,6 @@ const Home = () => {
               <p className="company-changes" data-testid="company-changes">
                 {company.changesPercentage}
               </p>
-              <p>
-                {company.mktCap}
-              </p>
             </Link>
           </div>
         ))}
