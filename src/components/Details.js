@@ -56,7 +56,7 @@ const Details = () => {
           </div>
           <div className="table-row">
             <h3>Price</h3>
-            <p>{companyDetails.price}</p>
+            <p>$ {companyDetails.price}</p>
           </div>
           <div className="table-row">
             <h3>Market Cap</h3>
@@ -64,7 +64,7 @@ const Details = () => {
           </div>
           <div className="table-row">
             <h3>Changes</h3>
-            <p>{companyDetails.changes}</p>
+            <p>$ {companyDetails.changes}</p>
           </div>
           <div className="table-row">
             <h3>C . E . O</h3>

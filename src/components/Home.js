@@ -70,7 +70,7 @@ const Home = () => {
                 {company.name}
               </p>
               <p className="company-changes" data-testid="company-changes">
-                {company.changesPercentage}
+                {company.changesPercentage}%
               </p>
             </Link>
           </div>
