@@ -28,6 +28,9 @@ const Home = () => {
     }
   };
 
+  // const c = company.symbol
+  // console.log(company.symbol);
+
   return (
     <div className="home">
       <div className="header">

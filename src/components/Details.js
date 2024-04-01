@@ -20,6 +20,14 @@ const Details = () => {
     navigate('/');
   };
 
+  // Function to format market cap with comma digits
+  const formatMarketCap = (mktCap) => {
+    if (mktCap) {
+      return mktCap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+    return ""; // Return an empty string if mktCap is undefined
+  };
+
   if (!companyDetails) {
     return <div>Loading...</div>;
   }
@@ -60,7 +68,7 @@ const Details = () => {
           </div>
           <div className="table-row">
             <h3>Market Cap</h3>
-            <p>{companyDetails.mktCap}</p>
+            <p>$ {formatMarketCap(companyDetails.mktCap)}</p>
           </div>
           <div className="table-row">
             <h3>Changes</h3>
