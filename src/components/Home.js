@@ -28,8 +28,12 @@ const Home = () => {
     }
   };
 
-  // const c = company.symbol
-  // console.log(company.symbol);
+  const getColorClass = (changesPercentage) => {
+    if (changesPercentage > 0) {
+      return 'positive';
+    }
+    return 'negative';
+  };
 
   return (
     <div className="home">
@@ -60,7 +64,7 @@ const Home = () => {
               <p className="company-name" data-testid="company-name">
                 {company.name}
               </p>
-              <p className="company-changes" data-testid="company-changes">
+              <p className={`company-changes ${getColorClass(company.changesPercentage)}`} data-testid="company-changes">
                 {company.changesPercentage}
               </p>
             </Link>
@@ -72,8 +76,9 @@ const Home = () => {
               <p className="company-name" data-testid="company-name">
                 {company.name}
               </p>
-              <p className="company-changes" data-testid="company-changes">
-                {company.changesPercentage}%
+              <p className={`company-changes ${getColorClass(company.changesPercentage)}`} data-testid="company-changes">
+                {company.changesPercentage}
+                %
               </p>
             </Link>
           </div>
