@@ -74,8 +74,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [Live Demo Link](https://stock-pulse.netlify.app/)
 
-## 🚀 Video Link <a name="live-demo"></a>
-- [Video Link](https://www.loom.com/share/cc3e214f758945cdb3e7dc2df50fc8cb)
+<!-- ## 🚀 Video Link <a name="live-demo"></a>
+- [Video Link](https://www.loom.com/share/cc3e214f758945cdb3e7dc2df50fc8cb) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
