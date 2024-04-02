@@ -122,7 +122,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
-    height: 30vh;
+    height: 40vh;
     margin: 1rem 0 0 1rem;
     transform: perspective(7rem) rotateY(340deg) scale(0.7);
   }
@@ -136,7 +136,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 10%;
-    width: 30%;
+    padding-left: 5%;
+    width: 40%;
   }
 }
