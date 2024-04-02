@@ -115,3 +115,29 @@
   border-radius: 4px;
   margin: 1rem 0 1rem 0;
 }
+
+@media (max-width: 768px) {
+  .image {
+    background-image: url('https://img.freepik.com/free-vector/business-infographic-template-with-photo_23-2148232861.jpg?t=st=1695239560~exp=1695240160~hmac=92dac98367d52e9a6b1ca7faa29261863173146c265ac1725b247faa4076c78f');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 30vh;
+    margin: 1rem 0 0 1rem;
+    transform: perspective(7rem) rotateY(340deg) scale(0.7);
+  }
+
+  .header {
+    height: 50vh;
+  }
+
+  .hd-ds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-top: 10%;
+    width: 30%;
+  }
+}
