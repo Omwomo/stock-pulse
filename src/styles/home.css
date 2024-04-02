@@ -139,4 +139,8 @@
     padding-left: 5%;
     width: 40%;
   }
+
+  .name {
+    margin: 0;
+  }
 }

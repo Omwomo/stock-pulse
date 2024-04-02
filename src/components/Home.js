@@ -42,7 +42,7 @@ const Home = () => {
         <div className="h">
           <div className="hd-ds">
             <p className="stock-intro">
-              Discover detailed company profiles and performance metrics to gain
+              Discover detailed company profiles and their stock performance metrics to gain
               valuable insights into their operations and achievements.
             </p>
             <button className="header-button" type="button">Learn More</button>
