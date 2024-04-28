@@ -78,13 +78,6 @@ const Details = () => {
             </p>
           </div>
           <div className="table-row">
-            <h3>Market Cap</h3>
-            <p>
-              $
-              {formatMarketCap(companyDetails.mktCap)}
-            </p>
-          </div>
-          <div className="table-row">
             <h3>Daily Changes</h3>
             <p className={`${getColorClass(companyDetails.changes)}`}>
               $
@@ -102,6 +95,13 @@ const Details = () => {
             <h3>Volatility Index</h3>
             <p>
               {companyDetails.beta}
+            </p>
+          </div>
+          <div className="table-row">
+            <h3>Market Cap</h3>
+            <p>
+              $
+              {formatMarketCap(companyDetails.mktCap)}
             </p>
           </div>
           <div className="table-row">
