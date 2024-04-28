@@ -34,3 +34,7 @@
 .table-row:nth-child(2n) {
   background-color: #1c067e80;
 }
+
+.weblink {
+  color: #fff;
+}
