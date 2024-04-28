@@ -28,6 +28,14 @@ const Details = () => {
     return ''; // Return an empty string if mktCap is undefined
   };
 
+  // Function to change the color of negative and positive stock price changes
+  const getColorClass = (changes) => {
+    if (changes > 0) {
+      return 'positive';
+    }
+    return 'negative';
+  };
+
   if (!companyDetails) {
     return <div>Loading...</div>;
   }
@@ -60,7 +68,7 @@ const Details = () => {
           </div>
           <div className="table-row">
             <h3>Website</h3>
-            <p>{companyDetails.website}</p>
+            <a className="weblink" href={companyDetails.website} target="_blank" rel="noreferrer">{companyDetails.website}</a>
           </div>
           <div className="table-row">
             <h3>Stock Price</h3>
@@ -78,7 +86,7 @@ const Details = () => {
           </div>
           <div className="table-row">
             <h3>Daily Changes</h3>
-            <p>
+            <p className={`${getColorClass(companyDetails.changes)}`}>
               $
               {companyDetails.changes}
             </p>
