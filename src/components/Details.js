@@ -63,7 +63,7 @@ const Details = () => {
             <p>{companyDetails.website}</p>
           </div>
           <div className="table-row">
-            <h3>Price</h3>
+            <h3>Stock Price</h3>
             <p>
               $
               {companyDetails.price}
@@ -77,10 +77,23 @@ const Details = () => {
             </p>
           </div>
           <div className="table-row">
-            <h3>Changes</h3>
+            <h3>Daily Changes</h3>
             <p>
               $
               {companyDetails.changes}
+            </p>
+          </div>
+          <div className="table-row">
+            <h3>Daily Avg Trading Vol</h3>
+            <p>
+              $
+              {formatMarketCap(companyDetails.volAvg)}
+            </p>
+          </div>
+          <div className="table-row">
+            <h3>Volatility Index</h3>
+            <p>
+              {companyDetails.beta}
             </p>
           </div>
           <div className="table-row">
